@@ -167,7 +167,7 @@ export const Offices = () => {
                         <Flex fd="column" max_width="48.6rem">
                             <OfficeHeader>
                                 <div>
-                                    <Malta />
+                                    <img src={Malta} alt="malta" />
                                 </div>
                                 <Header as="h4" mt="0.8rem" mb="1.6rem">
                                     {localize('Malta')}
@@ -208,7 +208,7 @@ export const Offices = () => {
                         <Flex fd="column" max_width="48.6rem">
                             <OfficeHeader>
                                 <div>
-                                    <Dubai />
+                                    <img src={Dubai} alt="dubai" />
                                 </div>
                                 <Header as="h4" mt="0.8rem" mb="1.6rem">
                                     {localize('Dubai')}
@@ -247,7 +247,7 @@ export const Offices = () => {
                     <Flex fd="column" m="4rem 0">
                         <OfficeHeader>
                             <div>
-                                <Malaysia />
+                                <img src={Malaysia} alt="malaysia" />
                             </div>
                             <Header as="h4" mt="0.8rem" mb="1.6rem">
                                 {localize('Malaysia')}
@@ -384,7 +384,7 @@ export const Offices = () => {
                         <Flex fd="column" max_width="48.6rem">
                             <OfficeHeader>
                                 <div>
-                                    <Paraguay />
+                                    <img src={Paraguay} alt="paraguay" />
                                 </div>
                                 <Header as="h4" mt="0.8rem" mb="1.6rem">
                                     {localize('Paraguay')}
@@ -424,7 +424,7 @@ export const Offices = () => {
                         <Flex fd="column" max_width="48.6rem">
                             <OfficeHeader>
                                 <div>
-                                    <Cyprus />
+                                    <img src={Cyprus} alt="cyprus" />
                                 </div>
                                 <Header as="h4" mt="0.8rem" mb="1.6rem">
                                     {localize('Cyprus')}

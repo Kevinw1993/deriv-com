@@ -45,7 +45,7 @@ const InputWrapper = styled.div`
         `}
 `
 
-const StyledError = styled(CrossIcon)`
+const StyledError = styled.img`
     position: absolute;
     right: 0.8rem;
     top: 1.2rem;
@@ -178,7 +178,7 @@ const Input = ({
         <ErrorMessages lh="1.4" align="left" color="red-1">
             {error}
         </ErrorMessages>
-        {error && <StyledError onClick={handleError} />}
+        {error && <StyledError src={CrossIcon} alt="error icon" onClick={handleError} />}
     </RelativeWrapper>
 )
 

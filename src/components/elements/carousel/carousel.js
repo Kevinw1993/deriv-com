@@ -102,6 +102,7 @@ export const Carousel = ({
 
     useEffect(() => {
         if (!embla) return
+        onSelect()
         embla.on('select', onSelect)
         embla.on('pointerDown', stop)
     }, [embla, onSelect, stop])

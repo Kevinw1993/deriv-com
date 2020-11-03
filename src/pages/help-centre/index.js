@@ -51,7 +51,7 @@ const SearchSection = styled.section`
     }
 `
 
-const SearchCrossIcon = styled(CrossIcon)`
+const SearchCrossIcon = styled.img`
     width: 2.3rem;
     height: 2.3rem;
     position: absolute;
@@ -321,7 +321,11 @@ class HelpCentre extends Component {
                                         autoComplete="off"
                                     />
                                     {search.length > 0 && (
-                                        <SearchCrossIcon onClick={this.clearSearch} />
+                                        <SearchCrossIcon
+                                            src={CrossIcon}
+                                            alt="cross icon"
+                                            onClick={this.clearSearch}
+                                        />
                                     )}
                                 </SearchForm>
                                 <ResultWrapper>
