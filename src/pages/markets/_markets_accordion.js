@@ -24,7 +24,7 @@ const Title = styled(Flex)`
         flex-direction: column;
     }
 `
-const StyledChevron = styled(ChevronThick)`
+const StyledChevron = styled.img`
     transform: rotate(${(props) => (props.is_show_detail == 'true' ? '0' : '180')}deg);
     transition: transform 100ms linear;
 
@@ -49,6 +49,8 @@ const MarketsAccordion = ({ renderTitle, renderDetails }) => {
                 {renderTitle()}
                 <Button onClick={() => setShow(!is_show_detail)}>
                     <StyledChevron
+                        src={ChevronThick}
+                        alt="chevron"
                         width="16px"
                         height="16px"
                         is_show_detail={String(is_show_detail)}

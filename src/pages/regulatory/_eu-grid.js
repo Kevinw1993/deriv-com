@@ -49,7 +49,7 @@ const License = styled.div`
     }
 `
 
-const AttachmentIcon = styled(ViewLicense)`
+const AttachmentIcon = styled.img`
     margin-left: 1rem;
 
     path {
@@ -67,7 +67,7 @@ const GridItem = ({ name, order, url }) => (
         <License>
             {name}
             <a href={url} target="_blank" rel="noopener noreferrer">
-                <AttachmentIcon />
+                <AttachmentIcon src={ViewLicense} alt="view license" />
             </a>
         </License>
     </Country>

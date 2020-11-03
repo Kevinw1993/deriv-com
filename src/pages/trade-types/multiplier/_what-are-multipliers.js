@@ -76,7 +76,7 @@ const WhatAreOptions = () => {
                     <Grid>
                         <WhyTradeItem>
                             <div>
-                                <MinimalRisk />
+                                <img src={MinimalRisk} alt="minimal risk" />
                             </div>
                             <Text mt="1.6rem" mb="0.8rem" weight="bold">
                                 {localize('Better risk management')}
@@ -89,7 +89,7 @@ const WhatAreOptions = () => {
                         </WhyTradeItem>
                         <WhyTradeItem>
                             <div>
-                                <FullControl />
+                                <img src={FullControl} alt="full control" />
                             </div>
                             <Text mt="1.6rem" mb="0.8rem" weight="bold">
                                 {localize('Increased market exposure')}
@@ -102,7 +102,7 @@ const WhatAreOptions = () => {
                         </WhyTradeItem>
                         <WhyTradeItem>
                             <div>
-                                <ResponsivePlatform />
+                                <img src={ResponsivePlatform} alt="responsive platform" />
                             </div>
                             <Text mt="1.6rem" mb="0.8rem" weight="bold">
                                 {localize('Secure, responsive platform')}
@@ -115,7 +115,7 @@ const WhatAreOptions = () => {
                         </WhyTradeItem>
                         <WhyTradeItem>
                             <div>
-                                <FriendlySupport />
+                                <img src={FriendlySupport} alt="friendly support" />
                             </div>
                             <Text mt="1.6rem" mb="0.8rem" weight="bold">
                                 {localize('Expert and friendly support')}
@@ -126,7 +126,7 @@ const WhatAreOptions = () => {
                         </WhyTradeItem>
                         <WhyTradeItem>
                             <div>
-                                <Seven />
+                                <img src={Seven} alt="seven" />
                             </div>
                             <Text mt="1.6rem" mb="0.8rem" weight="bold">
                                 {localize('Trade 24/7, 365 days a year')}

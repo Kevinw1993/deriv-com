@@ -66,7 +66,7 @@ const PartnershipOpportunities = () => (
                     <Header as="h4" size="var(--text-size-sm)">
                         {localize('Affiliate and IB programmes')}
                     </Header>
-                    <PartnerAffiliate />
+                    <img src={PartnerAffiliate} alt="partner affiliate" />
                 </Flex>
                 <Text>
                     {localize(
@@ -79,7 +79,7 @@ const PartnershipOpportunities = () => (
                     <Header as="h4" size="var(--text-size-sm)">
                         {localize('Payment agent programme')}
                     </Header>
-                    <PartnerPaymentAgent />
+                    <img src={PartnerPaymentAgent} alt="partner payment agent" />
                 </Flex>
                 <Text>
                     {localize(
