@@ -62,7 +62,7 @@ const StyledGraph = styled.img`
 const NewSignup = () => {
     const [submitState, setSubmitState] = useState('')
 
-    function getSubmitState(submitStatus) {
+    const getSubmitState = (submitStatus) => {
         setSubmitState(submitStatus)
     }
     return (
