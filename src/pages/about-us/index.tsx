@@ -9,6 +9,7 @@ import OurValues from './_OurValues'
 import OurPrinciples from './_OurPrinciples'
 import Hero from './components/_hero'
 import OurLeadership from './_OurLeadership'
+import OurOffices from './_OurOffices'
 import DerivNumbers from './_DerivNumbers'
 
 const StartSeparator = styled.div`
@@ -49,6 +50,7 @@ const AboutUs = (): React.ReactNode => {
             <OurPrinciples />
             <OurLeadership />
             <DerivNumbers />
+            <OurOffices />
         </Layout>
     )
 }
