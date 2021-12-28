@@ -3,11 +3,10 @@ import styled from 'styled-components'
 import { graphql, useStaticQuery } from 'gatsby'
 import { localize, LocalizedLink } from 'components/localization'
 import { SectionContainer, CssGrid, Show, Flex } from 'components/containers'
-import { Header, QueryImage, ImageWrapper, Text, BackgroundImage } from 'components/elements'
+import { Header, ImageWrapper, Text, BackgroundImage } from 'components/elements'
 import device from 'themes/device'
 
-import { ReactComponent as PinPin } from 'images/svg/about-us/pin.svg'
-import { ReactComponent as Chevron } from 'images/svg/custom/chevron-thick.svg'
+import { ReactComponent as Pin } from 'images/svg/about-us/pin.svg'
 
 const query = graphql`
     query {
@@ -143,7 +142,7 @@ const MapPin = ({ top, left, title, link }) => {
             left={left}
             to={link}
         >
-            <PinPin />
+            <Pin />
             {is_pin_show && (
                 <PinContent to={link} anchor>
                     <Text color="black" mr="8px">
