@@ -274,7 +274,7 @@ const OurOffices = () => {
                             link="/careers/locations/dubai"
                         />
                         <MapPin
-                            left="72%"
+                            left="71.2%"
                             top="53.2%"
                             title={localize('Ipoh')}
                             link="/careers/locations/ipoh"
@@ -286,8 +286,8 @@ const OurOffices = () => {
                             link="/careers/locations/cyberjaya"
                         />
                         <MapPin
-                            left="73%"
-                            top="56.2%"
+                            left="73.3%"
+                            top="56.5%"
                             title={localize('Melaka')}
                             link="/careers/locations/melaka"
                         />
