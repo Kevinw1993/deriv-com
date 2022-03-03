@@ -90,7 +90,7 @@ const RecoveringPassword = ({ text }: ArticleProps) => (
         </StyledHeader>
         <Text>
             <Localize
-                translate_text="If you’ve forgotten your Google/Facebook account password, you can <0>reset your Deriv account password</0> to log in to Deriv."
+                translate_text="If you’ve forgotten your Google/Facebook/Apple account password, you can <0>reset your Deriv account password</0> to log in to Deriv."
                 components={[
                     <StyledLink
                         to="/reset-password/"
